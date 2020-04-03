@@ -1,5 +1,5 @@
 const express = require('express');
-const customerRoutes = require('./routes/customer');
+const customerRoutes = require('./routes/customer.routes');
 
 // Connect to MongoDB
 require('./db.connect');
