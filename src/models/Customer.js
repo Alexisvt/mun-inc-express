@@ -12,4 +12,4 @@ const CustomerSchema = new Schema({
   phoneNumber: String,
 });
 
-module.exports = mongoose.model('customer', CustomerSchema);
+module.exports = mongoose.model('Customer', CustomerSchema);

@@ -11,7 +11,6 @@ router.get('/', (req, res, next) => {
 });
 
 router.post('/', (req, res) => {
-  console.log(req.body.name);
   const newItem = new Customer({
     ...req.body,
   });
